@@ -3,17 +3,14 @@ int main()
 {
     int number;
 
-    printf( "pls  a number: ");
-    scanf("%lf", &number);
+    printf("yo an integer: ");
+    scanf("%d", &number);
 
-    if (number <= 0)
-    {
-        if (number == 0)
-            printf("kinda enter no.");
-        else
-            printf("Yo a negative number.");
-    }
+ 
+    if(number % 2 == 0)
+        printf("%d is yo even.", number);
     else
-        printf("You a positive number.");
+        printf("%d is yo odd.", number);
+
     return 0;
 }
