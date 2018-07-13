@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    double number;
+    int number;
 
-    printf("Enter a number: ");
+    printf( "pls  a number: ");
     scanf("%lf", &number);
 
-    if (number <= 0.0)
+    if (number <= 0)
     {
-        if (number == 0.0)
-            printf("You entered 0.");
+        if (number == 0)
+            printf("kinda enter no.");
         else
-            printf("You entered a negative number.");
+            printf("Yo a negative number.");
     }
     else
-        printf("You entered a positive number.");
+        printf("You a positive number.");
     return 0;
 }
